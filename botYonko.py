@@ -21,7 +21,7 @@ async def send_scheduled_message_1():
 async def job_1():
     await send_scheduled_message_1()
 
-start_time_input = "12:54"
+start_time_input = "10:00"
 start_time = datetime.strptime(start_time_input, "%H:%M")
 start_date_relative = datetime.now() + timedelta(seconds=(start_time - datetime.now()).seconds) - timedelta(hours=1)
 
