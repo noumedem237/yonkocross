@@ -32,4 +32,23 @@ Le script est **hébergé sur PythonAnywhere**. Pour un fonctionnement continu s
 - 🧠 Optionnel : gestion dynamique via un fichier `JSON` ou base de données SQLite
 
 ---
+## 📦 Installation
 
+### 1. Cloner le projet
+
+```bash
+git clone https://github.com/noumedem237/yonkocross.git
+cd yonkocross
+
+## 2. Créer un environnement virtuel (facultatif mais recommandé)
+ 
+ 
+```python3 -m venv venv
+```source venv/bin/activate
+## 3. Installer les dépendances
+ 
+```pip install -r requirements.txt
+
+## 🚀 Lancer le script localement
+ 
+```python main.py
